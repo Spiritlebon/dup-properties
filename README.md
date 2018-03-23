@@ -22,7 +22,7 @@ min java version: 1.5
         }
 
         try (OutputStream out = new FileOutputStream(new File("sample_out2.properties"))) {
-        		// original Properties.store method. Remove dups, but all original format is lost, so as the properties order.
+            // original Properties.store method. Remove dups, but all original format is lost, so as the properties order.
             blockprop.store(out, null);
         }
 
